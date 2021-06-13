@@ -1,0 +1,27 @@
+Description:
+Gather informaton from product pages on amazon.com
+Save infornation in csv file.
+
+Data to scrape:
+- Product Title
+- Product Description
+- Thumbnail Image URL (just the thumbnail, not all images)
+- Price
+- Reviews Count
+- Rating
+- Stock Status 
+- Shipped By and Sold By (if present) https://prnt.sc/151jicv
+- Product Attributes (if present) https://prnt.sc/151jnsd
+- About Item  (if present) https://prnt.sc/151jv2w
+- Amazon Choice Label (true/false field) https://prnt.sc/151k42n
+- Optional!! - Common Review Words https://prnt.sc/151kk7h
+Include the product URL as well in the csv file.
+
+
+Input:
+Urls in file separated by new line (one url per row).
+Example input in file input.txt
+
+Restrictions:
+No restrictions on packages. You can use pure requests, scrapy, selenium or other tools to help you accomplish the goal.
+What's important is to generate a csv file with the scraped data.
